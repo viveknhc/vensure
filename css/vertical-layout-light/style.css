@@ -23376,12 +23376,12 @@ address p {
   font-weight: 500;
 }
 
-/* Miscellanoeous */
 body,
 html {
   overflow-x: hidden;
   padding-right: 0 !important;
   background: #F4F5F7;
+ 
 }
 
 *:-moz-full-screen,
@@ -33278,7 +33278,7 @@ div.tagsinput span.tag a {
   flex-direction: row;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 60px;
+  padding-top: 0px;
 }
 
 .page-body-wrapper.full-page-wrapper {
@@ -33636,9 +33636,9 @@ div.tagsinput span.tag a {
   -webkit-transition: background 0.25s ease;
   -moz-transition: background 0.25s ease;
   -ms-transition: background 0.25s ease;
-  -webkit-box-shadow: 0px 5px 21px -5px #CDD1E1;
-  -moz-box-shadow: 0px 5px 21px -5px #CDD1E1;
-  box-shadow: 0px 5px 21px -5px #CDD1E1;
+  /* -webkit-box-shadow: 0px 5px 21px -5px #CDD1E1; */
+  /* -moz-box-shadow: 0px 5px 21px -5px #CDD1E1; */
+  /* box-shadow: 0px 5px 21px -5px #CDD1E1; */
   /* Navbar color variations */
 }
 
@@ -36126,6 +36126,7 @@ div.tagsinput span.tag a {
     overflow: visible;
     margin-left: 0;
     margin-right: 0;
+    margin-top: 10rem;
   }
 
   .sidebar-icon-only .sidebar .nav .nav-item {
@@ -36793,14 +36794,12 @@ div.tagsinput span.tag a {
   left: 104px;
   width: 208px;
   height: 47px;
-  /* UI Properties */
-  /* font: var(--unnamed-font-style-normal) normal bold 40px/24px Raleway; */
-  letter-spacing: var(--unnamed-character-spacing-0);
+  font-family: 'Lato', sans-serif;
   text-align: left;
-  font: normal normal bold 40px/24px Raleway;
   letter-spacing: 0px;
   color: #11141A;
   opacity: 1;
+  font-size: 40px;
 }
 
 .span-welcome {
@@ -36808,13 +36807,14 @@ div.tagsinput span.tag a {
   left: 105px;
   width: 225px;
   height: 15px;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/14.4px var(--unnamed-font-family-lato);
+  /* font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/14.4px var(--unnamed-font-family-lato); */
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
-  font: normal normal normal 12px/14px Lato;
+  /* font: normal normal normal 12px/14px Lato; */
   letter-spacing: 0px;
   color: #7F8FA4;
   opacity: 1;
+  font-size: 12px;
 }
 
 .customise-block {
@@ -36837,7 +36837,6 @@ div.tagsinput span.tag a {
   left: 103px;
   width: 76px;
   height: 16px;
-  font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-14)/16px Raleway;
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-354052);
   text-align: left;
@@ -36846,15 +36845,36 @@ div.tagsinput span.tag a {
   color: #354052;
   text-transform: capitalize;
   opacity: 1;
+  font-size: 14px;
 }
 
 .quick-stats {
   border-radius: 12px !important;
 
 }
-
+.card-service{
+  font-size: 12px;
+  color: #7F8FA4;
+}
+.booking-accept{
+  text-decoration: none !important;
+  font-size: 14px;
+  color: #69519E !important;
+}
+.booking-decline{
+  color: #BBC5D5;
+  text-decoration: none;
+  font-size: 14px;
+}
+.service-name{
+  color: #354052;
+  font-size: 14px;
+}
+.booking-name{
+  font-size: 14px;
+}
 .stats1 {
-  font-size: 39px;
+  font-size: 32px;
   color: #11141A;
 
 }
