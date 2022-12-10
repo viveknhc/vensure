@@ -25850,10 +25850,10 @@ code {
 
 .card .card-title {
   color: #010101;
-  margin-bottom: 1.2rem;
+  /* margin-bottom: 1.2rem; */
   text-transform: capitalize;
   font-size: 1.125rem;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .card .card-subtitle {
@@ -36781,13 +36781,20 @@ div.tagsinput span.tag a {
   }
 }
 
+.quick-stats-card {
+  font-size: 14px !important;
+  color: #354052 !important;
+  opacity: 1;
+  text-align: left;
+}
+
 .dashboard {
   top: 20px;
   left: 104px;
   width: 208px;
   height: 47px;
   /* UI Properties */
-  font: var(--unnamed-font-style-normal) normal bold 40px/24px Raleway;
+  /* font: var(--unnamed-font-style-normal) normal bold 40px/24px Raleway; */
   letter-spacing: var(--unnamed-character-spacing-0);
   text-align: left;
   font: normal normal bold 40px/24px Raleway;
@@ -36841,11 +36848,31 @@ div.tagsinput span.tag a {
   opacity: 1;
 }
 
+.quick-stats {
+  border-radius: 12px !important;
 
+}
+
+.stats1 {
+  font-size: 39px;
+  color: #11141A;
+
+}
+
+.stats2 {
+  font-size: 39px;
+  color: #F35162;
+}
+
+.logo {
+  height: 28px;
+}
 
 /* Tab menu */
-.booking-tab{
+.booking-tab {
   text-decoration: none;
+  color: #11141A;
+  font-size: initial;
 }
 
 .tabbable-panel {
@@ -36865,7 +36892,7 @@ div.tagsinput span.tag a {
 .tabbable-line>.nav-tabs>li>a {
   border: 0;
   margin-right: 0;
-  color: #737373;
+  color: #BBC5D5;
 }
 
 .tabbable-line>.nav-tabs>li>a>i {
@@ -36874,7 +36901,7 @@ div.tagsinput span.tag a {
 
 .tabbable-line>.nav-tabs>li.open,
 .tabbable-line>.nav-tabs>li:hover {
-  border-bottom: 4px solid rgb(80, 144, 247);
+  border-bottom: 4px solid rgb(255 161 1);
 }
 
 .tabbable-line>.nav-tabs>li.open>a,
@@ -36895,7 +36922,7 @@ div.tagsinput span.tag a {
 }
 
 .tabbable-line>.nav-tabs>li.active {
-  border-bottom: 4px solid #32465B;
+  border-bottom: 4px solid #ffa101;
   position: relative;
 }
 
